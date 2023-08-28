@@ -1,38 +1,46 @@
-.App {
+body {
+  background: rgb(41, 41, 41);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 11, 20, 1) 9%,
+    rgba(42, 84, 177, 1) 49%,
+    rgba(7, 11, 20, 1) 90%
+  );
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: white;
   text-align: center;
+  background: rgba(0, 0, 0, 0.5);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h2 {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.cities {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.city-time {
+  font-size: 20px;
+  color: white;
+}
+
+.city-zone {
+  background: rgba(0, 0, 0, 0.5);
+  flex-flow: column;
+  border-radius: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 200px;
+  height: 200px;
+}
+
+.city-zone:hover {
+  outline: 1px solid white;
+  outline-offset: -6px;
 }
