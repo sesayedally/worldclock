@@ -1,0 +1,2 @@
+body{background:#292929;background:linear-gradient(90deg,#070b14 9%,#2a54b1 49%,#070b14 90%);font-family:Segoe UI,Tahoma,Geneva,Verdana,sans-serif}h1{background:rgba(0,0,0,.5);text-align:center}h1,h2{color:#fff}.cities{display:flex;justify-content:space-evenly}.city-time{color:#fff;font-size:20px}.city-zone{align-items:center;background:rgba(0,0,0,.5);border-radius:0;display:flex;flex-flow:column;height:200px;justify-content:space-evenly;width:200px}.city-zone:hover{outline:1px solid #fff;outline-offset:-6px}
+/*# sourceMappingURL=main.8dcbc099.css.map*/
